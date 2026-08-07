@@ -1,0 +1,170 @@
+//Pallete
+// Red: #FA325A (used for the tie)
+// Yellow/Cream: #FAB387 (used for the skin)
+// Blue: #1153C1 (used for the suit)
+// Light red: #BF1546 (used for the hair)
+// White: #F9F9EE (used for the shirt)
+// Gray: #393939 (used for the bg)
+
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "type": "file",
+    "source": "/home/lumi/.config/fastfetch/ascii.txt",
+    "color": {
+      "1": "#FA325A",
+      "2": "#FAB387",
+      "3": "#1153C1",
+      "4": "#BF1546",
+      "5": "#F9F9EE",
+      "6": "#393939"
+    },
+    "padding": {
+      "top": 1,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": " ──  "
+  },
+  "modules": [
+    "break",
+    "break",
+    {
+      "type": "title",
+      "color": {
+        "user": "#FA325A",
+        "at": "#FAB387",
+        "host": "#1153C1"
+      }
+    },
+    "break",
+    {
+      "type": "os",
+      "key": "󰋜 OS          ",
+      "keyColor": "#BF1546"
+    },
+    {
+      "type": "host",
+      "key": "󰌢 Host        ",
+      "keyColor": "#FA325A"
+    },
+    {
+      "type": "kernel",
+      "key": " Kernel      ",
+      "keyColor": "#1153C1"
+    },
+    {
+      "type": "uptime",
+      "key": "󱎫 Uptime      ",
+      "keyColor": "#BF1546"
+    },
+    {
+      "type": "init",
+      "key": "󰔚 Init System ",
+      "keyColor": "#FA325A"
+    },
+    {
+      "type": "packages",
+      "key": "󰏖 Packages    ",
+      "keyColor": "#1153C1"
+    },
+    {
+      "type": "shell",
+      "key": " Shell       ",
+      "keyColor": "#BF1546"
+    },
+    "break",
+    {
+      "type": "display",
+      "key": "󰍹 Display     ",
+      "keyColor": "#FA325A"
+    },
+    {
+      "type": "de",
+      "key": "󰧨 DE          ",
+      "keyColor": "#1153C1"
+    },
+    {
+      "type": "wm",
+      "key": " WM          ",
+      "keyColor": "#BF1546"
+    },
+    {
+      "type": "terminal",
+      "key": " Terminal    ",
+      "keyColor": "#FA325A"
+    },
+    {
+      "type": "theme",
+      "key": "󰔎 Theme       ",
+      "keyColor": "#1153C1"
+    },
+    "break",
+    {
+      "type": "cpu",
+      "key": " CPU         ",
+      "keyColor": "#BF1546"
+    },
+    {
+      "type": "gpu",
+      "key": "󰢮 GPU         ",
+      "keyColor": "#FA325A"
+    },
+    {
+      "type": "board",
+      "key": "󰚗 Board       ",
+      "keyColor": "#1153C1"
+    },
+    {
+      "type": "memory",
+      "key": " Memory      ",
+      "keyColor": "#BF1546",
+      "format": "{used} / {total} ({percentage})"
+    },
+    {
+      "type": "swap",
+      "key": "󰓡 Swap        ",
+      "keyColor": "#FA325A"
+    },
+    {
+      "type": "disk",
+      "key": " Disk        ",
+      "keyColor": "#1153C1"
+    },
+    {
+      "type": "battery",
+      "key": " Battery     ",
+      "keyColor": "#BF1546"
+    },
+    "break",
+    {
+      "type": "localip",
+      "key": "󰩟 Local IP    ",
+      "keyColor": "#FA325A"
+    },
+    {
+      "type": "sound",
+      "key": "󰓃 Sound       ",
+      "keyColor": "#1153C1"
+    },
+    {
+      "type": "media",
+      "key": "󰝚 Media       ",
+      "keyColor": "#BF1546"
+    },
+    {
+      "type": "locale",
+      "key": "󰗖 Locale      ",
+      "keyColor": "#FA325A"
+    },
+    "break",
+    {
+      "type": "colors",
+      "symbol": "circle",
+      "padding": 2,
+      "key": "Luminus",
+      "keyColor": "#FA325A"
+    }
+  ]
+}
