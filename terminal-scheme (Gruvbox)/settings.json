@@ -1,15 +1,13 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
             "command": "find",
             "id": "User.find"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -20,16 +18,14 @@
             "id": "User.paste"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "newTab",
                 "profile": "Ubuntu"
             },
             "id": "User.newTab.Ubuntu"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "newTab",
                 "profile": "Kali"
             },
@@ -40,8 +36,7 @@
     "copyFormatting": "none",
     "copyOnSelect": false,
     "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-    "keybindings": 
-    [
+    "keybindings": [
         {
             "id": "User.newTab.Ubuntu",
             "keys": "ctrl+shift+u"
@@ -55,10 +50,6 @@
             "keys": "ctrl+shift+k"
         },
         {
-            "id": "User.copy",
-            "keys": "ctrl+shift+c"
-        },
-        {
             "id": "User.paste",
             "keys": "ctrl+v"
         },
@@ -68,21 +59,17 @@
         }
     ],
     "launchMode": "maximized",
-    "newTabMenu": 
-    [
+    "newTabMenu": [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "colorScheme": "GruvboxDarkHard",
             "cursorShape": "filledBox",
             "experimental.retroTerminalEffect": false,
-            "font": 
-            {
+            "font": {
                 "builtinGlyphs": true,
                 "cellHeight": "1.2",
                 "colorGlyphs": true,
@@ -95,8 +82,7 @@
             "padding": "20",
             "useAcrylic": true
         },
-        "list": 
-        [
+        "list": [
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
@@ -123,8 +109,7 @@
             }
         ]
     },
-    "schemes": 
-    [
+    "schemes": [
         {
             "background": "#0F1419",
             "black": "#000000",
