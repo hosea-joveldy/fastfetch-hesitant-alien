@@ -23,7 +23,7 @@ Huge shoutout to [SleepyCatHey](https://github.com/SleepyCatHey/) for inspiring 
 - [Terminal Scheme](./terminal-scheme%20(Gruvbox)/README.md): Windows terminal config with multiple color schemes, i set it to gruvbox by default.
 
 ## Future
-A few months from now, this repo will be filled with other rices, like YASB, tiling window manager config, prompt customization, etc.
+A few months from now, this repo will be filled with other rices, like YASB, tiling window manager config, prompt customization, etc. I'll also add a sh script for symlinks.
 
 ## License
 
